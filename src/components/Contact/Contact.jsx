@@ -21,10 +21,10 @@ export const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      "service_0nt5z6p",
-      "template_6k46oy9",
+      import.meta.env.VITE_SERVICE_ID,
+      import.meta.env.VITE_TEMPLATE_ID,
       form.current,
-      "QBrQlX1GKpzySod4o"
+      import.meta.env.VITE_PUBLIC_KEY
     );
     e.target.reset();
   };
