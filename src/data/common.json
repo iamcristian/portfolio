@@ -1,0 +1,63 @@
+{
+  "header": {
+    "home": {
+      "EN": "Home",
+      "ES": "Inicio"
+    },
+    "about": {
+      "EN": "About",
+      "ES": "Sobre mí"
+    },
+    "skills": {
+      "EN": "Skills",
+      "ES": "Habilidades"
+    },
+    "experience": {
+      "EN": "Experience",
+      "ES": "Experiencia"
+    },
+    "contact": {
+      "EN": "Contact",
+      "ES": "Contacto"
+    }
+  },
+  "home": {
+    "job":{
+      "EN": "Software Developer",
+      "ES": "Desarrollador de Software"
+    },
+    "description":{
+      "EN": "EN Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto libero perferendis, quo accusantium perspiciatis temporibus. Deleniti illo accusantium quaerat magni.",
+      "ES": "ES Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto libero perferendis, quo accusantium perspiciatis temporibus. Deleniti illo accusantium quaerat magni."
+    },
+    "follow":{
+      "EN": "Follow me: ",
+      "ES": "Sigueme en: "
+    },
+    "download": {
+      "EN": "Download CV",
+      "ES": "Descargar CV"
+    }
+  },
+  "about": {
+    "title": {
+      "EN": "About me",
+      "ES": "Sobre mí"
+    },
+    "description":{
+      "EN": "description Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat exercitationem soluta a tempora, quidem impedit aspernatur commodi quasi voluptate nemo similique illo quia cupiditate! Nam eligendi nulla nisi vitae beatae!",
+      "ES": "descripcion Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat exercitationem soluta a tempora, quidem impedit aspernatur commodi quasi voluptate nemo similique illo quia cupiditate! Nam eligendi nulla nisi vitae beatae!"
+    },
+    "email":{
+      "EN": "Email",
+      "ES": "Correo"
+    },
+    "place":{
+      "EN": "Place",
+      "ES": "Lugar"
+    }
+
+  },
+  "skills": {},
+  "experience": {}
+}

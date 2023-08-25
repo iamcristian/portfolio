@@ -1,0 +1,121 @@
+.header {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  font-weight: bold;
+}
+
+header.dark {
+  border-bottom: 1px solid var(--white);
+  background-color: transparent;
+  color: var(--white);
+  transition: background-color 1s;
+}
+
+header.light {
+  border-bottom: 1px solid var(--black);
+  background-color: transparent;
+  color: var(--black);
+  transition: background-color 1s;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-nav.dark {
+  font-size: 50px;
+  color: var(--blue);
+  transition: filter 0.5s;
+}
+
+.logo-nav.dark:hover {
+  filter: drop-shadow(0px 1px 3px var(--blue));
+}
+
+.logo-nav.light {
+  font-size: 50px;
+  color: var(--black);
+  transition: filter 0.5s;
+}
+
+.logo-nav.light:hover {
+  filter: drop-shadow(0px 1px 3px var(--black));
+}
+
+nav.navbar {
+  min-width: auto;
+}
+
+#nav {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+}
+
+.inav {
+  width: auto;
+  font-size: 1.4em;
+}
+
+header.dark .links {
+  color: var(--white);
+}
+
+header.light div.container nav.navbar ul li.inav .links {
+  color: var(--black);
+}
+
+.settings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.settings > .language {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+header.dark .settings > .language:hover {
+  filter: drop-shadow(0px 1px 3px var(--white));
+}
+
+header.light .settings > .language:hover {
+  filter: drop-shadow(0px 1px 3px var(--black));
+}
+
+
+header.dark .settings > .icon-theme:hover {
+  filter: drop-shadow(0px 1px 3px var(--yellow));
+}
+
+header.light .settings > .icon-theme:hover {
+  filter: drop-shadow(0px 1px 3px rgb(22, 22, 21));
+}
+
+.settings > .icon-theme {
+  cursor: pointer;
+}
+
+header.dark .inav:hover {
+  text-decoration: underline var(--blue) 0.3rem;
+}
+
+header.light .inav:hover {
+  text-decoration: underline var(--black) 0.3rem;
+}
+
