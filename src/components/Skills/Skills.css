@@ -1,8 +1,30 @@
 .skills.section {
   height: 100vh;
   width: 100%;
-  background-color: var(--black-background);
+  /* background-color: var(--black-background); */
   transition: background-color 1s;
+}
+
+.skills.section.dark {
+    color: var(--white);
+    background-color: var(--black-background);
+}
+
+.skills.section.light {
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.skills.section.light .skills_title{
+  color: var(--white);
+}
+
+.skills.section.light .skills_name{
+  color: var(--white);
+}
+
+.skills.section.light .skills_level{
+  color: var(--white-text);
 }
 
 .section_title {

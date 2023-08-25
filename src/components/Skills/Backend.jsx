@@ -12,8 +12,8 @@ const Backend = () => {
             <BiBadgeCheck className="check_icon"/>
 
             <div>
-              <h3 className="skills_name">HTML</h3>
-              <span className="skills_level">Basic</span>
+              <h3 className="skills_name">Python</h3>
+              <span className="skills_level">Proficient</span>
             </div>
           </div>
           {/* css */}
@@ -21,8 +21,8 @@ const Backend = () => {
             <BiBadgeCheck className="check_icon"/>
 
             <div>
-              <h3 className="skills_name">CSS</h3>
-              <span className="skills_level">Advanced</span>
+              <h3 className="skills_name">Django</h3>
+              <span className="skills_level">Proficient</span>
             </div>
           </div>
           {/* javascript  */}
@@ -30,8 +30,8 @@ const Backend = () => {
             <BiBadgeCheck className="check_icon"/>
 
             <div>
-              <h3 className="skills_name">Javascript</h3>
-              <span className="skills_level">Intermediate</span>
+              <h3 className="skills_name">Java</h3>
+              <span className="skills_level">Competent</span>
             </div>
           </div>
           {/* react */}
@@ -39,29 +39,20 @@ const Backend = () => {
             <BiBadgeCheck className="check_icon"/>
 
             <div>
-              <h3 className="skills_name">React</h3>
-              <span className="skills_level">Intermediate</span>
+              <h3 className="skills_name">Nodejs</h3>
+              <span className="skills_level">Basic</span>
             </div>
           </div>
         </div>
 
         <div className="skills_group">
-          {/* html */}
-          <div className="skills_data">
-            <BiBadgeCheck className="check_icon"/>
-
-            <div>
-              <h3 className="skills_name">Node</h3>
-              <span className="skills_level">Basic</span>
-            </div>
-          </div>
           {/* css */}
           <div className="skills_data">
             <BiBadgeCheck className="check_icon"/>
 
             <div>
-              <h3 className="skills_name">Firebase</h3>
-              <span className="skills_level">Advanced</span>
+              <h3 className="skills_name">MongoDB</h3>
+              <span className="skills_level">Competent</span>
             </div>
           </div>
           {/* javascript  */}
@@ -69,8 +60,8 @@ const Backend = () => {
             <BiBadgeCheck className="check_icon"/>
 
             <div>
-              <h3 className="skills_name">Express</h3>
-              <span className="skills_level">Intermediate</span>
+              <h3 className="skills_name">MySQL</h3>
+              <span className="skills_level">Competent</span>
             </div>
           </div>
           {/* react */}
@@ -78,8 +69,8 @@ const Backend = () => {
             <BiBadgeCheck className="check_icon"/>
 
             <div>
-              <h3 className="skills_name">Nextjs</h3>
-              <span className="skills_level">Intermediate</span>
+              <h3 className="skills_name">Docker</h3>
+              <span className="skills_level">Basic</span>
             </div>
           </div>
         </div>

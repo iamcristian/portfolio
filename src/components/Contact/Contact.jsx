@@ -1,4 +1,5 @@
-import  { useRef } from "react";
+import { useContext, useRef } from "react";
+import { GlobalContext } from "../../context/GlobalStateContext";
 import emailjs from "@emailjs/browser";
 
 import "./Contact.css";
@@ -10,23 +11,24 @@ import {
 import { BsSend } from "react-icons/bs";
 
 export const Contact = () => {
+  const { theme, setTheme, language, setLanguage } = useContext(GlobalContext);
+
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_0nt5z6p",
-        "template_6k46oy9",
-        form.current,
-        "QBrQlX1GKpzySod4o"
-      )
-      e.target.reset()
+    emailjs.sendForm(
+      "service_0nt5z6p",
+      "template_6k46oy9",
+      form.current,
+      "QBrQlX1GKpzySod4o"
+    );
+    e.target.reset();
   };
 
   return (
-    <section className="contact section" id="contact">
+    <section className={`contact section ${theme}`} id="contact">
       <h2 className="section_title">Get in touch</h2>
       <h3 className="section_subtitle">Contact Me</h3>
 
@@ -39,7 +41,9 @@ export const Contact = () => {
               <AiFillMail className="contact_card-icon" />
 
               <h3 className="contact_card-title">Email</h3>
-              <span className="contact_card-data">crisarandosyse@gmail.com</span>
+              <span className="contact_card-data">
+                crisarandosyse@gmail.com
+              </span>
 
               <a
                 href="mailto:crisarandosyse@gmail.com"

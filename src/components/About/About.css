@@ -4,8 +4,7 @@ div.container-about {
     padding: 5rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     gap: 2rem;
     transition: background-color 1s;
 }
@@ -24,6 +23,10 @@ div.container-about div.content {
     width: 40%;
 }
 
+div.content {
+    margin-top: 7%;
+}
+
 div.container-about div.content h1 {
     font-family: Poppins sans-serif;
     font-size: 7rem;
@@ -35,7 +38,7 @@ div.container-about.dark div.content h1 {
 }
 
 div.container-about.light div.content h1 {
-    color: var(--black);
+    color: var(--blue);
 }
 
 div.container-about div.content p {
@@ -68,4 +71,10 @@ div.container-about.light div.content div.personal-data span.label{
 .chat{
   width: 40%;
   
+}
+
+@media screen and (max-width: 768px) {
+  div.container-about div.content {
+    width: 100%;
+}
 }

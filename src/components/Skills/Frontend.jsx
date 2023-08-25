@@ -13,7 +13,7 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills_name">HTML</h3>
-              <span className="skills_level">Basic</span>
+              <span className="skills_level">Proficient</span>
             </div>
           </div>
           {/* css */}
@@ -22,7 +22,7 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills_name">CSS</h3>
-              <span className="skills_level">Advanced</span>
+              <span className="skills_level">Proficient</span>
             </div>
           </div>
           {/* javascript  */}
@@ -31,7 +31,7 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills_name">Javascript</h3>
-              <span className="skills_level">Intermediate</span>
+              <span className="skills_level">Proficient</span>
             </div>
           </div>
           {/* react */}
@@ -40,7 +40,7 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills_name">React</h3>
-              <span className="skills_level">Intermediate</span>
+              <span className="skills_level">Competent</span>
             </div>
           </div>
         </div>
@@ -51,8 +51,8 @@ const Frontend = () => {
             <BiBadgeCheck className="check_icon" />
 
             <div>
-              <h3 className="skills_name">Node</h3>
-              <span className="skills_level">Basic</span>
+              <h3 className="skills_name">TypeScript</h3>
+              <span className="skills_level">Competent</span>
             </div>
           </div>
           {/* css */}
@@ -60,8 +60,8 @@ const Frontend = () => {
             <BiBadgeCheck className="check_icon" />
 
             <div>
-              <h3 className="skills_name">Firebase</h3>
-              <span className="skills_level">Advanced</span>
+              <h3 className="skills_name">Tailwind</h3>
+              <span className="skills_level">Basic</span>
             </div>
           </div>
           {/* javascript  */}
@@ -69,19 +69,11 @@ const Frontend = () => {
             <BiBadgeCheck className="check_icon" />
 
             <div>
-              <h3 className="skills_name">Express</h3>
-              <span className="skills_level">Intermediate</span>
+              <h3 className="skills_name">JS Design Patterns</h3>
+              <span className="skills_level"></span>
             </div>
           </div>
-          {/* react */}
-          <div className="skills_data">
-            <BiBadgeCheck className="check_icon" />
-
-            <div>
-              <h3 className="skills_name">Nextjs</h3>
-              <span className="skills_level">Intermediate</span>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>

@@ -5,6 +5,29 @@
   transition: background-color 1s;
 }
 
+.contact.section.dark {
+    color: var(--white);
+    background-color: var(--black-background);
+}
+
+.contact.section.light {
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.contact.section.light .contact_card{
+  color: var(--white);
+}
+
+.contact.section.light .contact_form-tag{
+color: var(--black);
+background-color: var(--white);
+}
+
+.contact.section.light .contact_form-input{
+  color: var(--black);
+}
+
 .contact_container {
   padding: 0 10px;
   display: grid;
