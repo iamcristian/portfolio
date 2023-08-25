@@ -10,6 +10,8 @@ import {
 } from "react-icons/ai";
 import { BsSend } from "react-icons/bs";
 
+import {contact} from "../../data/common.json"
+
 export const Contact = () => {
   const { theme, setTheme, language, setLanguage } = useContext(GlobalContext);
 
@@ -29,18 +31,20 @@ export const Contact = () => {
 
   return (
     <section className={`contact section ${theme}`} id="contact">
-      <h2 className="section_title">Get in touch</h2>
-      <h3 className="section_subtitle">Contact Me</h3>
+      <h2 className="section_title">{contact.title[language]}</h2>
+      <h3 className="section_subtitle">{contact.subtitle[language]}</h3>
 
       <div className="contact_container">
         <div className="contact_content">
-          <h3 className="contact_title">Talk to me</h3>
+          <h3 className="contact_title">{contact.talk[language]}</h3>
 
           <div className="contact_info">
             <div className="contact_card">
               <AiFillMail className="contact_card-icon" />
 
-              <h3 className="contact_card-title">Email</h3>
+              <h3 className="contact_card-title">
+                {contact.label_email[language]}
+              </h3>
               <span className="contact_card-data">
                 crisarandosyse@gmail.com
               </span>
@@ -49,7 +53,7 @@ export const Contact = () => {
                 href="mailto:crisarandosyse@gmail.com"
                 className="contact_button"
               >
-                Write me
+                {contact.button_write[language]}
                 <AiOutlineArrowRight className="contact_button-icon" />
               </a>
             </div>
@@ -64,7 +68,7 @@ export const Contact = () => {
                 href="https://api.whatsapp.com/send?phone=59168453090&text=Hello, more information!"
                 className="contact_button"
               >
-                Write me
+                {contact.button_write[language]}
                 <AiOutlineArrowRight className="contact_button-icon" />
               </a>
             </div>
@@ -72,42 +76,42 @@ export const Contact = () => {
         </div>
 
         <div className="contact_content">
-          <h3 className="contact_title">Write your message</h3>
+          <h3 className="contact_title">{contact.write[language]}</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact_form">
             <div className="contact_form-div">
-              <label className="contact_form-tag">Name</label>
+              <label className="contact_form-tag">{contact.label_name[language]}</label>
               <input
                 type="text"
                 name="name"
                 className="contact_form-input"
-                placeholder="Insert your name"
+                placeholder={contact.placeholder_name[language]}
               />
             </div>
 
             <div className="contact_form-div">
-              <label className="contact_form-tag">Mail</label>
+              <label className="contact_form-tag">{contact.label_email[language]}</label>
               <input
                 type="email"
                 name="email"
                 className="contact_form-input"
-                placeholder="Insert your email"
+                placeholder={contact.placeholder_email[language]}
               />
             </div>
 
             <div className="contact_form-div contact_form-area">
-              <label className="contact_form-tag">Message</label>
+              <label className="contact_form-tag">{contact.label_message[language]}</label>
               <textarea
                 name="message"
                 cols="30"
                 rows="10"
                 className="contact_form-input"
-                placeholder="Write your message"
+                placeholder={contact.placeholder_message[language]}
               ></textarea>
             </div>
 
             <button className="yellow-button button_contact">
-              Send Message
+              {contact.send[language]}
               <BsSend />
             </button>
           </form>

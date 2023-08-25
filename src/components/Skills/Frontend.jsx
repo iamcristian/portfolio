@@ -1,9 +1,16 @@
+import { useContext } from "react";
 import { BiBadgeCheck } from "react-icons/bi";
+import { GlobalContext } from "../../context/GlobalStateContext";
+
+import {skills} from "../../data/common.json"
 
 const Frontend = () => {
+
+  const { theme, setTheme, language, setLanguage } = useContext(GlobalContext);
+
   return (
     <div className="skills_content">
-      <h3 className="skills_title">Frontend Developer</h3>
+      <h3 className="skills_title">{skills.skills_title_frontend[language]}</h3>
 
       <div className="skills_box">
         <div className="skills_group">
@@ -13,7 +20,9 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills_name">HTML</h3>
-              <span className="skills_level">Proficient</span>
+              <span className="skills_level">
+                {skills.level_skills_proficient[language]}
+              </span>
             </div>
           </div>
           {/* css */}
@@ -22,7 +31,9 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills_name">CSS</h3>
-              <span className="skills_level">Proficient</span>
+              <span className="skills_level">
+                {skills.level_skills_proficient[language]}
+              </span>
             </div>
           </div>
           {/* javascript  */}
@@ -31,7 +42,9 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills_name">Javascript</h3>
-              <span className="skills_level">Proficient</span>
+              <span className="skills_level">
+                {skills.level_skills_proficient[language]}
+              </span>
             </div>
           </div>
           {/* react */}
@@ -40,7 +53,9 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills_name">React</h3>
-              <span className="skills_level">Competent</span>
+              <span className="skills_level">
+                {skills.level_skills_competent[language]}
+              </span>
             </div>
           </div>
         </div>
@@ -52,7 +67,9 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills_name">TypeScript</h3>
-              <span className="skills_level">Competent</span>
+              <span className="skills_level">
+                {skills.level_skills_competent[language]}
+              </span>
             </div>
           </div>
           {/* css */}
@@ -61,7 +78,9 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills_name">Tailwind</h3>
-              <span className="skills_level">Basic</span>
+              <span className="skills_level">
+                {skills.level_skills_basic[language]}
+              </span>
             </div>
           </div>
           {/* javascript  */}
@@ -69,11 +88,10 @@ const Frontend = () => {
             <BiBadgeCheck className="check_icon" />
 
             <div>
-              <h3 className="skills_name">JS Design Patterns</h3>
+              <h3 className="skills_name">{skills.patrones[language]}</h3>
               <span className="skills_level"></span>
             </div>
           </div>
-          
         </div>
       </div>
     </div>

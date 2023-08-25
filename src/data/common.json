@@ -22,15 +22,15 @@
     }
   },
   "home": {
-    "job":{
+    "job": {
       "EN": "Software Developer",
       "ES": "Desarrollador de Software"
     },
-    "description":{
+    "description": {
       "EN": "Passionate software developer creating digital solutions for a dynamic world.",
       "ES": "Apasionado desarrollador de software creando soluciones digitales para un mundo dinámico."
     },
-    "follow":{
+    "follow": {
       "EN": "Follow me: ",
       "ES": "Sigueme en: "
     },
@@ -44,20 +44,102 @@
       "EN": "About me",
       "ES": "Sobre mí"
     },
-    "description":{
+    "description": {
       "EN": "Hello! I'm Cristian Arando, a Systems Engineering student, focusing on web application development. I've gained skills in programming, databases, and Scrum methodology throughout my education. My passion lies in continuous improvement, aspiring to take an active role in the exciting field of software development. I've explored technologies like Javascript, React, and Django to build robust and secure solutions. I'm eager to harness technological advancements and tackle challenges in this dynamic sector.",
       "ES": "¡Hola! Soy Cristian Arando, estudiante de Ingeniería de Sistemas, con enfoque en el desarrollo de aplicaciones web. He adquirido habilidades en programación, bases de datos y metodología Scrum a lo largo de mi formación. Mi pasión se centra en mejorar constantemente y aspirar a un rol activo en el emocionante campo del desarrollo de software, donde he explorado tecnologías como Javascript, React y Django para crear soluciones robustas y seguras. Estoy entusiasmado por aprovechar la evolución tecnológica y enfrentar los desafíos en este dinámico sector."
     },
-    "email":{
+    "email": {
       "EN": "Email",
       "ES": "Correo"
     },
-    "place":{
+    "place": {
       "EN": "Place",
       "ES": "Lugar"
     }
-
   },
-  "skills": {},
-  "experience": {}
+  "skills": {
+    "title": {
+      "EN": "Skills",
+      "ES": "Habilidades"
+    },
+    "subtitle": {
+      "EN": "My technical level",
+      "ES": "Mi nivel tecnico"
+    },
+    "skills_title_frontend": {
+      "EN": "Frontend Developer",
+      "ES": "Desarrollador Frontend"
+    },
+    "skills_title_backend": {
+      "EN": "Backend Developer",
+      "ES": "Desarrollador Backend"
+    },
+    "level_skills_proficient": {
+      "EN": "Proficient",
+      "ES": "Competente"
+    },
+    "level_skills_competent": {
+      "EN": "Competent",
+      "ES": "Intermedio"
+    },
+    "level_skills_basic": {
+      "EN": "Basic",
+      "ES": "Basico"
+    },
+    "patrones":{
+      "EN": "JS Design Patterns",
+      "ES": "Patrones de diseño JS"
+    }
+  },
+  "experience": {},
+  "contact": {
+    "title": {
+      "EN": "Get in touch",
+      "ES": "Ponerse en contacto"
+    },
+    "subtitle":{
+      "EN": "Contact Me",
+      "ES": "Contactame"
+    },
+    "talk":{
+      "EN": "Talk to me",
+      "ES": "Hablemos"
+    },
+    "write": {
+      "EN": "Write your message",
+      "ES": "Escribe tu mensaje"
+    },
+    "button_write": {
+      "EN": "Write me",
+      "ES": "Escribeme"
+    },
+    "label_name": {
+      "EN": "Name",
+      "ES": "Nombre"
+    },
+    "label_email": {
+      "EN": "Email",
+      "ES": "Correo"
+    },
+    "label_message": {
+      "EN": "Message",
+      "ES": "Mensaje"
+    },
+    "send": {
+      "EN": "Send Message ",
+      "ES": "Enviar Mensaje "
+    },
+    "placeholder_name": {
+      "EN": "Enter your name",
+      "ES": "Ingresa tu nombre"
+    },
+    "placeholder_email": {
+      "EN": "Enter your email",
+      "ES": "Ingresa tu correo"
+    },
+    "placeholder_message": {
+      "EN": "Enter your message",
+      "ES": "Ingresa tu mensaje"
+    }
+  }
 }
