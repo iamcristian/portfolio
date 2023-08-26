@@ -148,6 +148,11 @@ header.light .inav:hover {
 
   .nav-icon{
     color: var(--white);
+    transition: color 1s;
+  }
+
+  header.light .nav-icon{
+    color: var(--black);
   }
 
   #nav{
@@ -174,5 +179,13 @@ header.light .inav:hover {
   #nav li{
     margin-bottom: 0.5rem;
   }
+
+  header.light #nav{
+    background-color: rgba(75, 81, 87, 0.9);
+  }
+
+  header.light div.container nav.navbar ul li.inav .links {
+  color: var(--white);
+}
 
 }
