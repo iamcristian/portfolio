@@ -1,80 +1,81 @@
 div.container-about {
-    min-height: 100vh;
-    width: 100vw;
-    padding: 5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 2rem;
-    transition: background-color 1s;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  transition: background-color 1s;
 }
 
 div.container-about.dark {
-    color: var(--white);
-    background-color: var(--black-background);
+  color: var(--white);
+  background-color: var(--black-background);
 }
 
 div.container-about.light {
-    color: var(--black);
-    background-color: var(--white);
+  color: var(--black);
+  background-color: var(--white);
 }
 
 div.container-about div.content {
-    width: 40%;
+  width: 40%;
 }
 
 div.content {
-    margin-top: 7%;
+  margin-top: 7%;
 }
 
 div.container-about div.content h1 {
-    font-family: Poppins sans-serif;
-    font-size: 7rem;
-    font-style: italic;
+  font-family: Poppins sans-serif;
+  font-size: 7rem;
+  font-style: italic;
 }
 
-div.container-about.dark div.content h1 {
-    color: var(--blue);
-}
-
-div.container-about.light div.content h1 {
-    color: var(--blue);
+div.container-about div.content h1 {
+  color: var(--blue);
 }
 
 div.container-about div.content p {
-    font-size: 1.6rem;
-    text-align: left;
-    margin-bottom: 1rem;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-bottom: 1rem;
 }
 
 div.container-about div.content div.personal-data {
-    font-size: 1.2rem;
-    padding: 0.5rem 0;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
 }
 
-div.container-about div.content div.personal-data span.label{
-    color: var(--yellow);
-    margin-right: 0.7rem;
-    font-weight: 600;
-    font-family: Poppins sans-serif;
+div.container-about div.content div.personal-data span.label {
+  color: var(--yellow);
+  margin-right: 0.7rem;
+  font-weight: 600;
+  font-family: Poppins sans-serif;
 }
 
-div.container-about.dark div.content div.personal-data span.label{
-    color: var(--yellow);
+div.container-about.dark div.content div.personal-data span.label {
+  color: var(--yellow);
 }
 
-div.container-about.light div.content div.personal-data span.label{
-    color: var(--black);
+div.container-about.light div.content div.personal-data span.label {
+  color: var(--black);
 }
 
 /* chat bot */
-.chat{
+.chat {
   width: 40%;
-  
 }
 
 @media screen and (max-width: 768px) {
   div.container-about div.content {
     width: 100%;
-}
+  }
+
+  div.container-about div.content h1 {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    font-size: 5rem;
+  }
 }

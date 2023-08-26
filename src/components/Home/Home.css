@@ -1,7 +1,6 @@
 div.main-container {
-  position: relative;
-  min-height: 100vh;
-  width: 100vw;
+  height: 100vh;
+  width: 100%;
   padding: 2rem 23rem 0 12rem;
   display: flex;
   flex-direction: column;
@@ -106,4 +105,8 @@ div.main-container.dark .icon-rrss:hover {
   .details{
     width: fit-content;
   }
+
+  div.main-container {
+  padding: 0rem 2rem;
+}
 }
