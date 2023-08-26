@@ -126,7 +126,7 @@ header.light .inav:hover {
 @media screen and (max-width: 576px) {
   .header>.container{
     justify-content: space-between;
-    padding-right: 10rem;
+    padding-right: 7rem;
   }
 
   /* .navbar{
@@ -162,8 +162,8 @@ header.light .inav:hover {
     justify-content: flex-start;
     position: fixed;
     top: 12vh;
-    right: -300px;
-    width: 300px;
+    right: -200px;
+    width: 200px;
     height: 60vh;
     background-color: rgba(42, 50, 57, 0.9);
     font-size: 1.1rem;
