@@ -119,3 +119,60 @@ header.light .inav:hover {
   text-decoration: underline var(--black) 0.3rem;
 }
 
+.menu_mobile{
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .header>.container{
+    justify-content: space-between;
+    padding-right: 10rem;
+  }
+
+  /* .navbar{
+    display: none;
+  } */
+
+  .navbar.active{
+    display: flex;
+  }
+
+  .menu_mobile{
+    display: flex;
+    position: absolute;
+    font-size: 4rem;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+
+  .nav-icon{
+    color: var(--white);
+  }
+
+  #nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 12vh;
+    right: -300px;
+    width: 300px;
+    height: 60vh;
+    background-color: rgba(42, 50, 57, 0.9);
+    font-size: 1.1rem;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 40px 0 0 10px;
+    transition: 0.3s ease-in-out;
+  }
+
+  #nav.active{
+    right: 0px;
+  }
+
+  #nav li{
+    margin-bottom: 0.5rem;
+  }
+
+}
